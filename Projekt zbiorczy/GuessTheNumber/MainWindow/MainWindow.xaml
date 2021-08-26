@@ -1,0 +1,95 @@
+﻿<Window x:Class="GuessTheNumber.MainWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GuessTheNumber.MainWindow"
+        xmlns:HomeWindow ="clr-namespace:GuessTheNumber.HomeWindow"
+        xmlns:GameWindow ="clr-namespace:GuessTheNumber.Game.GameWindow"
+        xmlns:SettingsGameWindow="clr-namespace:GuessTheNumber.Game.SettingsGameWindow"
+        xmlns:LoadFile="clr-namespace:GuessTheNumber.LoadFile"
+        xmlns:Behavior="clr-namespace:GuessTheNumber.Behavior"
+        xmlns:RotateImage="clr-namespace:GuessTheNumber.RotateImage"
+        xmlns:Employees="clr-namespace:GuessTheNumber.DataGrid.Employees"
+        xmlns:Person="clr-namespace:GuessTheNumber.DataGrid.Person"
+        xmlns:Saper="clr-namespace:GuessTheNumber.Saper.Game"
+        xmlns:SaperSetting="clr-namespace:GuessTheNumber.Saper.Settings"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        mc:Ignorable="d"
+        Title="Guess the number" Height="450" Width="800"
+        DataContext="{Binding Source={StaticResource Locator}, Path=MainVindowVM}" WindowStyle="SingleBorderWindow">
+    <i:Interaction.Behaviors>
+        <Behavior:CloseWindowBehavior CloseKey="Esc" CloseMenuItem="{Binding ElementName=CloseMenuItem}" CloseButton="{Binding ElementName=CloseButton}" />
+    </i:Interaction.Behaviors>
+    <DockPanel LastChildFill="true">
+        <Menu DockPanel.Dock="Top" IsEnabled="{Binding EnableMainMenu}">
+            <MenuItem Header="Plik">
+                <MenuItem Header="Notatnik" Command="{Binding LoadFileCommand}"/>
+                <MenuItem Header="Zamknij" x:Name="CloseMenuItem"/>
+            </MenuItem>
+            <MenuItem  Header="Gra">
+                <MenuItem Header="Nowa gra" Command="{Binding NewGameCommand}"/>
+                <MenuItem Header="Opcje" Command="{Binding OptionCommand}"/>
+            </MenuItem>
+            <MenuItem Header="Własności doczepiane(attached properties)">
+                <MenuItem Header="Obrót obrazkiem" Command="{Binding RotateImageCommand}"/>
+            </MenuItem>
+            <MenuItem Header="DataGrid">
+                <MenuItem Header="Employees" Command="{Binding EmployeesCommand}"/>
+                <MenuItem Header="Person" Command="{Binding PersonCommand}"/>
+            </MenuItem>
+            <MenuItem Header="Saper">
+                <MenuItem Header="Saper gra" Command="{Binding SaperCommand}"/>
+                <MenuItem Header="Ustawienia" Command="{Binding SaperSettingCommand}"/>
+            </MenuItem>
+        </Menu>
+        <Button DockPanel.Dock="Bottom" Content="Zamknij okno" Margin="10,10,10,10" x:Name="CloseButton">
+            <Button.LayoutTransform>
+                <ScaleTransform ScaleX="1.0" ScaleY="1.0"/>
+            </Button.LayoutTransform>
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="Button.MouseEnter">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="LayoutTransform.(ScaleTransform.ScaleX)"
+                                             Duration="0:0:2" From="1" To="1.2" AutoReverse="True" RepeatBehavior="Forever"/>
+                            <DoubleAnimation Storyboard.TargetProperty="LayoutTransform.(ScaleTransform.ScaleY)"
+                                             Duration="0:0:2" From="1" To="1.2" AutoReverse="True" RepeatBehavior="Forever"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+        <ContentControl x:Name="Pages" DockPanel.Dock="Right" Content="{Binding SelectedViewModel, Mode=OneWay}">
+            <ContentControl.Resources>
+                <DataTemplate DataType="{x:Type HomeWindow:HomeWindowVM}">
+                    <HomeWindow:HomeWindow/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type GameWindow:GameWindowVM}">
+                    <GameWindow:GameWindow/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type SettingsGameWindow:SettingsGameWindowVM}">
+                    <SettingsGameWindow:SettingsGameWindow/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type LoadFile:LoadFileVM}">
+                    <LoadFile:LoadFile/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type RotateImage:RotateImageVM}">
+                    <RotateImage:RotateImage/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type Employees:EmployeesVM}">
+                    <Employees:Employees/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type Person:PersonVM}">
+                    <Person:PersonUC/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type Saper:SaperVM}">
+                    <Saper:Saper/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type SaperSetting:SaperSettingsVM}">
+                    <SaperSetting:SaperSettingsUC/>
+                </DataTemplate>
+            </ContentControl.Resources>
+        </ContentControl>
+    </DockPanel>
+</Window>

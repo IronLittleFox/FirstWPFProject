@@ -1,0 +1,70 @@
+D:\!MojeRepo\WpfApp1\ChangingViews\bin\Debug\ChangingViews.exe.config
+D:\!MojeRepo\WpfApp1\ChangingViews\bin\Debug\ChangingViews.exe
+D:\!MojeRepo\WpfApp1\ChangingViews\bin\Debug\ChangingViews.pdb
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\ChangingViews.csproj.AssemblyReference.cache
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\DialogWindow\DialogWindow.g.cs
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\MainWindow\MainWindow.g.cs
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\OptionNew\OptionNew.g.cs
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\OptionOpen\OptionOpen.g.cs
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\App.g.cs
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\ChangingViews_MarkupCompile.cache
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\ChangingViews_MarkupCompile.lref
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\DialogWindow\DialogWindow.baml
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\MainWindow\MainWindow.baml
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\OptionNew\OptionNew.baml
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\OptionOpen\OptionOpen.baml
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\ChangingViews.g.resources
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\ChangingViews.Properties.Resources.resources
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\ChangingViews.csproj.GenerateResource.cache
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\ChangingViews.csproj.CoreCompileInputs.cache
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\ChangingViews.exe
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\ChangingViews.pdb
+D:\!MojeRepo\WpfApp1\ChangingViews\bin\Debug\CommonServiceLocator.dll
+D:\!MojeRepo\WpfApp1\ChangingViews\bin\Debug\GalaSoft.MvvmLight.dll
+D:\!MojeRepo\WpfApp1\ChangingViews\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\!MojeRepo\WpfApp1\ChangingViews\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\!MojeRepo\WpfApp1\ChangingViews\bin\Debug\System.Windows.Interactivity.dll
+D:\!MojeRepo\WpfApp1\ChangingViews\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\!MojeRepo\WpfApp1\ChangingViews\bin\Debug\GalaSoft.MvvmLight.xml
+D:\!MojeRepo\WpfApp1\ChangingViews\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\!MojeRepo\WpfApp1\ChangingViews\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\!MojeRepo\WpfApp1\ChangingViews\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\!MojeRepo\WpfApp1\ChangingViews\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\App.baml
+D:\!MojeRepo\WpfApp1\ChangingViews\obj\Debug\ChangingViews.csproj.CopyComplete
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\bin\Debug\ChangingViews.exe.config
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\bin\Debug\ChangingViews.exe
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\bin\Debug\ChangingViews.pdb
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\bin\Debug\CommonServiceLocator.dll
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\bin\Debug\GalaSoft.MvvmLight.dll
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\bin\Debug\System.Windows.Interactivity.dll
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\bin\Debug\GalaSoft.MvvmLight.xml
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\ChangingViews.csproj.AssemblyReference.cache
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\DialogWindow\DialogWindow.g.cs
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\MainWindow\MainWindow.g.cs
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\OptionNew\OptionNew.g.cs
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\OptionOpen\OptionOpen.g.cs
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\App.g.cs
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\ChangingViews_MarkupCompile.cache
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\ChangingViews_MarkupCompile.lref
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\App.baml
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\DialogWindow\DialogWindow.baml
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\MainWindow\MainWindow.baml
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\OptionNew\OptionNew.baml
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\OptionOpen\OptionOpen.baml
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\ChangingViews.g.resources
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\ChangingViews.Properties.Resources.resources
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\ChangingViews.csproj.GenerateResource.cache
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\ChangingViews.csproj.CoreCompileInputs.cache
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\ChangingViews.csproj.CopyComplete
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\ChangingViews.exe
+D:\Łukasz\Repo\Projekt zbiorczy\ChangingViews\obj\Debug\ChangingViews.pdb

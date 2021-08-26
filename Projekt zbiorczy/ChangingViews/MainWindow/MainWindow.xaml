@@ -1,0 +1,43 @@
+﻿<Window x:Class="ChangingViews.MainWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChangingViews.MainWindow"
+        xmlns:OptionNew="clr-namespace:ChangingViews.OptionNew"
+        xmlns:OptionOpen="clr-namespace:ChangingViews.OptionOpen"
+        xmlns:DialogWindow="clr-namespace:ChangingViews.DialogWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="228" Width="434"
+        DataContext="{Binding MainWindowVM, Source={StaticResource Locator}}">
+    <!--<Window.DataContext>
+        <local:MainWindowVM/>
+    </Window.DataContext>-->
+    <DockPanel LastChildFill="true">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem  Header="_File" IsEnabled="{Binding EnableMainMenu}">
+                <MenuItem Header="_New" Command="{Binding NewCommand}"/>
+                <MenuItem Header="_Open" Command="{Binding OpenCommand}"/>
+                <MenuItem Header="_Save" />
+                <Separator />
+                <MenuItem Header="_Exit" />
+            </MenuItem>
+        </Menu>
+        <StackPanel DockPanel.Dock="Bottom" Height="47" Orientation="Horizontal">
+            <Button Content="Prev" Margin="10,10,10,10" MinWidth="40" Command="{Binding PrevCommand}"/>
+        </StackPanel>
+        <ContentControl x:Name="Pages" DockPanel.Dock="Right" Content="{Binding SelectedViewModel, Mode=OneWay}">
+            <ContentControl.Resources>
+                <DataTemplate DataType="{x:Type OptionNew:OptionNewVM}">
+                    <OptionNew:OptionNew/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type OptionOpen:OptionOpenVM}">
+                    <OptionOpen:OptionOpen/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type DialogWindow:DialogWindowVM}">
+                    <DialogWindow:DialogWindow/>
+                </DataTemplate>
+            </ContentControl.Resources>
+        </ContentControl>
+    </DockPanel>
+</Window>

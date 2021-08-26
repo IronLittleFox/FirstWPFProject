@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangingViews", "ChangingViews\ChangingViews.csproj", "{02E671C4-3BFF-417D-A0F4-B44A4982F202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumber", "GuessTheNumber\GuessTheNumber.csproj", "{6AEC0113-7438-47C4-ACA7-74A6A767D61B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02E671C4-3BFF-417D-A0F4-B44A4982F202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E671C4-3BFF-417D-A0F4-B44A4982F202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E671C4-3BFF-417D-A0F4-B44A4982F202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E671C4-3BFF-417D-A0F4-B44A4982F202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEC0113-7438-47C4-ACA7-74A6A767D61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEC0113-7438-47C4-ACA7-74A6A767D61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEC0113-7438-47C4-ACA7-74A6A767D61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEC0113-7438-47C4-ACA7-74A6A767D61B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33E8F34A-A1E1-4CEC-B5B0-BE43CF8D6F37}
+	EndGlobalSection
+EndGlobal
